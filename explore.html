@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Stock Media for Creators - Creator Vault</title>
+    <link href="style_updated.css" rel="stylesheet" />
+    <link href="/img/flav/favicon.ico" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li class="closesidebar" onclick="Closesidebar()">
+          <a href="">
+            <svg
+              fill="#007f5f"
+              height="30px"
+              viewbox="0 -960 960 960"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="index.html"> Home </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href=""> About </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="packs.html"> Browse Packs </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="explore.html"> Explore </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href=""> Join Now </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img alt="Creator Vault" src="img/logo/logo landscape 2.jpg" />
+        </li>
+        <li class="hideonmobile">
+          <a href="index.html"> Home </a>
+        </li>
+        <li class="hideonmobile">
+          <a href=""> About </a>
+        </li>
+        <li class="hideonmobile">
+          <a href="packs.html"> Browse Packs </a>
+        </li>
+        <li class="hideonmobile">
+          <a href="explore.html"> Explore </a>
+        </li>
+        <li class="hideonmobile">
+          <a href=""> Join Now </a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#">
+            <svg
+              fill="#007f5f"
+              height="30px"
+              viewbox="0 -960 960 960"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="search-hero">
+      <div class="search-container">
+        <select class="media-type-select">
+          <option value="all">All</option>
+          <option value="video">Video</option>
+          <option value="photo">Photo</option>
+          <option value="music">Music</option>
+          <option value="sfx">SFX</option>
+        </select>
+        <input
+          class="search-input"
+          type="search"
+          placeholder="Search images, videos sound"
+        />
+        <button class="search-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="25"
+            height="25"
+            viewBox="0,0,256,256"
+            class="search-icon"
+          >
+            <g
+              fill="#fefefa"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <g transform="scale(8.53333,8.53333)">
+                <path
+                  d="M13,3c-5.511,0 -10,4.489 -10,10c0,5.511 4.489,10 10,10c2.39651,0 4.59738,-0.85101 6.32227,-2.26367l5.9707,5.9707c0.25082,0.26124 0.62327,0.36648 0.97371,0.27512c0.35044,-0.09136 0.62411,-0.36503 0.71547,-0.71547c0.09136,-0.35044 -0.01388,-0.72289 -0.27512,-0.97371l-5.9707,-5.9707c1.41266,-1.72488 2.26367,-3.92576 2.26367,-6.32227c0,-5.511 -4.489,-10 -10,-10zM13,5c4.43012,0 8,3.56988 8,8c0,4.43012 -3.56988,8 -8,8c-4.43012,0 -8,-3.56988 -8,-8c0,-4.43012 3.56988,-8 8,-8z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="box">
+        <h2>Popular Categories</h2>
+        <div class="cat-grid">
+          <div class="cat-box">
+            <img src="img/tiles/lofi.jpg" alt="" />
+            <div class="tile-overlay">
+              <h4>Lofi Aesthetic</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="img/tiles/podcast-tile.jpg" alt="" />
+            <div class="tile-overlay">
+              <h4>Podcast Visuals</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="img/tiles/instagram-temp-tile.jpg" alt="" />
+            <div class="tile-overlay">
+              <h4>Instagram Reel Templates</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Cinematic B-Roll</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Reactions</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Nature Backgrounds</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Trending Tags</h2>
+        <div class="cat-grid">
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Trending Now</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Summer 2025</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>New Releases</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Creator Picks</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>AI-Generated</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h2>Content Type</h2>
+        <div class="cat-grid">
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Stock Footage</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Music & Sounds</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Voiceovers</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Overlays & Templates</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h2>Explore Styles</h2>
+        <div class="cat-grid">
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Dark</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Minimalist</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>High Energy</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Cozy & Warm</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Cinematic Drama</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Corporate Clean</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h2>Platforms</h2>
+        <div class="cat-grid">
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Youtube</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>TikTok</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Instagram</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Twitch</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Podcasting</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Project Type</h2>
+        <div class="cat-grid">
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Vlog Intros</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Event Recaps</h4>
+              <p><span>000+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Product Promos</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Course/Edits</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Livestream Setups</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+          <div class="cat-box">
+            <img src="" alt="" />
+            <div class="tile-overlay">
+              <h4>Storytime & Reactions</h4>
+              <p><span>00+ Assets</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>

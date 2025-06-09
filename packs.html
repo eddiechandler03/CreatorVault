@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Stock Media for Creators - Creator Vault</title>
+    <link href="style_updated.css" rel="stylesheet" />
+    <link href="/img/flav/favicon.ico" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li class="closesidebar" onclick="Closesidebar()">
+          <a href="">
+            <svg
+              fill="#007f5f"
+              height="30px"
+              viewbox="0 -960 960 960"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="index.html"> Home </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href=""> About </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="packs.html"> Browse Packs </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="explore.html"> Explore </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href=""> Join Now </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img alt="Creator Vault" src="img/logo/logo landscape 2.jpg" />
+        </li>
+        <li class="hideonmobile">
+          <a href="index.html"> Home </a>
+        </li>
+        <li class="hideonmobile">
+          <a href=""> About </a>
+        </li>
+        <li class="hideonmobile">
+          <a href="packs.html"> Browse Packs </a>
+        </li>
+        <li class="hideonmobile">
+          <a href="explore.html"> Explore </a>
+        </li>
+        <li class="hideonmobile">
+          <a href=""> Join Now </a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#">
+            <svg
+              fill="#007f5f"
+              height="30px"
+              viewbox="0 -960 960 960"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="pack">
+      <div class="box">
+        <h1>Packs</h1>
+        <div class="filter-bar">
+          <a class="pill" href="" data-filter="gaming">
+            <img alt="" class="pill-icon" src="img/flav/favicon.ico" />
+            Gaming
+          </a>
+          <a class="pill" href="" data-filter="film">
+            <img alt="" class="pill-icon" src="img/flav/favicon.ico" />
+            Filmmaking
+          </a>
+          <a class="pill" href="" data-filter="music">
+            <img alt="" class="pill-icon" src="img/flav/favicon.ico" />
+            Music
+          </a>
+          <a class="pill" href="" data-filter="social">
+            <img alt="" class="pill-icon" src="img/flav/favicon.ico" />
+            Social/ Short-form
+          </a>
+          <a class="pill" href="" data-filter="mood">
+            <img alt="" class="pill-icon" src="img/flav/favicon.ico" />
+            Aesthetic/ Mood
+          </a>
+          <a class="pill active" href="" data-filter="all">
+            <img alt="" class="pill-icon" src="img/flav/favicon.ico" />
+            All Packs
+          </a>
+        </div>
+        <div class="cont">
+          <div class="small-box" data-category="social">
+            <div class="thumbnail-tiktok"></div>
+            <h3>TikTok Trend Starter Kit</h3>
+            <p>
+              High-energy sound bites, transitions and viral style overlays.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-pack-id="tiktok"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-description="This kit includes viral-ready sound effects, swipe transitions, glitch overlays, and audio clips trending across TikTok and Reels. Whether you’re stitching, dueting, or starting something new — this pack makes your content scroll-stopping."
+              data-tagline="Stay ahead of the algorithm"
+              data-title="TikTok Trend Starter Kit"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="film">
+            <div class="thumbnail-cinematic"></div>
+            <h3>Cinematic Short Film Pack</h3>
+            <p>
+              Soundscapes, cinematic LUTs and SFX for moody-heavy short films.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-pack-id="cinematic"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Shoot indie. Feel like cinema."
+              data-description="
+Perfect for short-form storytelling, this bundle includes cinematic LUTs, dramatic music beds, textured overlays, and moody b-roll. Designed for filmmakers, film students, and visual storytellers."
+              data-title="Cinematic Short Film Pack"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="mood" data-pack-id="tiktok">
+            <div class="thumbnail-study"></div>
+            <h3>Lo-fi Study Kit</h3>
+            <p>
+              A chill pack built for streamers, students, and lo-fi creators.
+              Includes loops, visuals, overlays, and more.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-pack-id="lofi"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-description=" Designed for streamers and chill-content creators, this pack includes soft visual loops, ambient rain FX, lo-fi beats, and Twitch overlay assets. Plug in, zone out, and set the mood for deep focus."
+              data-tagline="Create chill vibes that loop forever."
+              data-title="Lofi Study Streamer Kit"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="gaming">
+            <div class="thumbnail-gaming"></div>
+            <h3>Gaming Stream Essentials</h3>
+            <p>Twitch overlays, alert sounds &amp; loops built for streamers</p>
+            <a
+              class="button-secondary openPopup"
+              data-pack-id="gaming"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Level up your live setup."
+              data-description="Twitch-style overlays, retro gaming sounds, alert popups, and background music loops that set the tone — whether you’re speed-running, reacting, or just vibing with your community."
+              data-title="Gaming Stream Essentials"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="social">
+            <div class="thumbnail-podcast"></div>
+            <h3>Podcast Promo Kit</h3>
+            <p>
+              Wave forms, stings &amp; visuals to help your podcast shine
+              online.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-pack-id="podcast"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Make your audio look as good as it sounds."
+              data-description="Waveform animations, intro stingers, interview visuals, and subtitle-ready templates for turning your podcast into video content for social platforms."
+              data-title="Podcast Promo Kit"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="social">
+            <div class="thumbnail-instagram"></div>
+            <h3>Instagram Aesthetic Pack</h3>
+            <p>
+              Trendy transitions, overlays &amp; filters - styled for social
+              growth.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-pack-id="instagram"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Stylish edits made simple."
+              data-description="Dust overlays, color filters, fashion-forward transitions, and curated music loops — perfect for beauty tutorials, lifestyle snippets, and high-aesthetic content."
+              data-title="Instagram Aesthetic Pack"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="social">
+            <div class="thumbnail-youtube"></div>
+            <h3>Youtube Creator Starter Kit</h3>
+            <p>
+              Everything you need to polish your channel - From into to outro
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Professional polish for beginner creators."
+              data-description="Includes intro/outro templates, camera whip transitions, click & swipe sound FX, subscribe animations, and thumbnail frames — everything you need to start strong and grow fast."
+              data-title="Youtube Creator Starter Kit"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="social">
+            <div class="thumbnail-ad"></div>
+            <h3>Vertical Ad Builder</h3>
+            <p>
+              Swipe-up transitions &amp; ad-ready templates for TikTok &amp;
+              Reels.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Turn scrolls into sales."
+              data-description="
+Designed for creators and brands, this kit includes vertical video templates, swipe-up animations, upbeat loops, and text overlay transitions built for TikTok and Instagram ads."
+              data-title="Vertical Ad Builder"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="film">
+            <div class="thumbnail-nature"></div>
+            <h3>Nature Vlog Visuals</h3>
+            <p>
+              Peaceful B-roll, nature sounds &amp; acoustic tracks for calm
+              content
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Slow down. Show beauty."
+              data-description="A collection of peaceful b-roll (forests, rivers, skies), ambient nature sounds, and soft acoustic scores. Ideal for travel channels, ASMR creators, and vloggers looking to bring calm into frame."
+              data-title="Nature Vlog Visuals"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="film">
+            <div class="thumbnail-event"></div>
+            <h3>Event Recap Pack</h3>
+            <p>Confetti FX, countdowns &amp; music to make every moment.</p>
+            <a
+              class="button-secondary openPopup"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Turn moments into memories."
+              data-description="Packed with confetti FX, dynamic music cues, countdown timers, and multi-camera transitions — this kit is your go-to for party highlights, weddings, and brand launches."
+              data-title="Event Recap Pack"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+          <div class="small-box" data-category="mood">
+            <div class="thumbnail-emotions"></div>
+            <h3>Emotions B-Roll Essentials</h3>
+            <p>
+              Cinematic clips of real people expressing joy, sadness, anger, and
+              everything in between.
+            </p>
+            <a
+              class="button-secondary openPopup"
+              data-assets="🎵 Chill_Loop.mp3 – 00:45,🎬 Study_Desk.mp4 – 1920x1080,🖼️ Glow_Overlay.png – 1080p"
+              data-tagline="Feel more in every frame."
+              data-description="This kit includes high-quality, emotionally expressive stock footage — from laughter and tears to shock and frustration. Each clip is curated to help creators tell deeper, more human stories. Whether you’re making reactions, ads, or documentaries, this pack adds genuine feeling to every edit."
+              data-title="Emotions Pack"
+              href=" "
+            >
+              View Pack
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>
+            <strong> Looking for something specific? </strong>
+            Try our Pack Builder
+          </h3>
+          <p>
+            <span> (Coming soon) </span>
+          </p>
+          <br />
+          <a class="button-secondary" href=""> Try our Premium Features! </a>
+        </div>
+      </div>
+    </section>
+    <div class="hidden-content">
+      <div class="popup-overlay hidden" id="popupOverlay">
+        <div class="popup-box">
+          <h2 id="popupTitle">[Title]</h2>
+          <p id="popupTagline">[Tagline]</p>
+          <p id="popupDescription">[Description]</p>
+          <div class="pack-assets">
+            <ul id="popupAssets">
+              <!-- Assets will be injected here -->
+            </ul>
+          </div>
+          <div class="cta-buttons">
+            <a class="button-primary" href=""> Download This Pack </a>
+            <a class="popup-close" href="" id="closePopup"> Close </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

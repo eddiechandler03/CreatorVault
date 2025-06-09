@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Stock Media for Creators - Creator Vault</title>
+    <link href="style_updated.css" rel="stylesheet" />
+    <link href="/img/flav/favicon.ico" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li class="closesidebar" onclick="Closesidebar()">
+          <a href="">
+            <svg
+              fill="#007f5f"
+              height="30px"
+              viewbox="0 -960 960 960"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href=""> About </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="packs.html"> Browse Packs </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href="explore.html"> Explore </a>
+        </li>
+        <li onclick="Closesidebar()">
+          <a href=""> Join Now </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img alt="Creator Vault" src="img/logo/logo landscape 2.jpg" />
+        </li>
+        <li class="hideonmobile">
+          <a href=""> About </a>
+        </li>
+        <li class="hideonmobile">
+          <a href="packs.html"> Browse Packs </a>
+        </li>
+        <li class="hideonmobile">
+          <a href="explore.html"> Explore </a>
+        </li>
+        <li class="hideonmobile">
+          <a href=""> Join Now </a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#">
+            <svg
+              fill="#007f5f"
+              height="30px"
+              viewbox="0 -960 960 960"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div class="box">
+        <h1>Explore Thousands of Creative Assets in One Click</h1>
+        <p>
+          Search multiple stock sites, explore curated media kits, and create
+          content faster than ever.
+        </p>
+        <div class="buttons">
+          <a class="button-primary" href="packs.html"> Browse Packs </a>
+          <a class="button-secondary" href="explore.html"> Search </a>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="box">
+        <div class="about-cards">
+          <h2>About Creator Vault</h2>
+          <div class="cont">
+            <div class="card">
+              <h3>
+                <img alt="" class="point" src="img/flav/favicon-32X32.png" />
+                Our Mission
+              </h3>
+              <p>
+                At CreatorVault, we help creators move faster by making quality
+                media easy to find and ready to use. From curated packs to smart
+                search tools, everything we build is designed to simplify the
+                creative process — so you can focus on creating, not searching.
+              </p>
+            </div>
+            <div class="card">
+              <h3>How It Works</h3>
+              <ol>
+                <li>
+                  <h3>
+                    Search or Browse
+                    <img alt="" src="img/icon/search-icon.png" />
+                  </h3>
+                  <p>
+                    Start with a search or explore the trending kits curated by
+                    the team.
+                  </p>
+                </li>
+                <li>
+                  <h3>
+                    Download Instantly
+                    <img alt="" src="img/icon/dwload-icon.png" />
+                  </h3>
+                  <p>
+                    Free and premium packs ready to go. No clutter, no lock-in.
+                  </p>
+                </li>
+                <li>
+                  <h3>
+                    Create with Confidence
+                    <img alt="" src="img/icon/tick-icon.png" />
+                  </h3>
+                  <p>
+                    Use the assets that are already matched to your projects
+                    style.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="search">
+      <div class="box">
+        <div class="search-container">
+          <select class="media-type-select">
+            <option value="all">All</option>
+            <option value="video">Video</option>
+            <option value="photo">Photo</option>
+            <option value="music">Music</option>
+            <option value="sfx">SFX</option>
+          </select>
+          <input
+            class="search-input"
+            type="search"
+            placeholder="Search images, videos sound"
+          />
+          <button class="search-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="25"
+              height="25"
+              viewBox="0,0,256,256"
+              class="search-icon"
+            >
+              <g
+                fill="#fefefa"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(8.53333,8.53333)">
+                  <path
+                    d="M13,3c-5.511,0 -10,4.489 -10,10c0,5.511 4.489,10 10,10c2.39651,0 4.59738,-0.85101 6.32227,-2.26367l5.9707,5.9707c0.25082,0.26124 0.62327,0.36648 0.97371,0.27512c0.35044,-0.09136 0.62411,-0.36503 0.71547,-0.71547c0.09136,-0.35044 -0.01388,-0.72289 -0.27512,-0.97371l-5.9707,-5.9707c1.41266,-1.72488 2.26367,-3.92576 2.26367,-6.32227c0,-5.511 -4.489,-10 -10,-10zM13,5c4.43012,0 8,3.56988 8,8c0,4.43012 -3.56988,8 -8,8c-4.43012,0 -8,-3.56988 -8,-8c0,-4.43012 3.56988,-8 8,-8z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <h2>Trending Tags</h2>
+        <div class="cat-grid">
+          <a href="">
+            <div class="cat-box">
+              <img src="" alt="" />
+              <div class="tile-overlay">
+                <h4>Trending Now</h4>
+                <p><span>000+ Assets</span></p>
+              </div>
+            </div></a
+          >
+          <a href="">
+            <div class="cat-box">
+              <img src="" alt="" />
+              <div class="tile-overlay">
+                <h4>Summer 2025</h4>
+                <p><span>000+ Assets</span></p>
+              </div>
+            </div></a
+          >
+          <a href="">
+            <div class="cat-box">
+              <img src="" alt="" />
+              <div class="tile-overlay">
+                <h4>New Releases</h4>
+                <p><span>00+ Assets</span></p>
+              </div>
+            </div></a
+          >
+          <a href="">
+            <div class="cat-box">
+              <img src="" alt="" />
+              <div class="tile-overlay">
+                <h4>Creator Picks</h4>
+                <p><span>00+ Assets</span></p>
+              </div>
+            </div></a
+          >
+          <a href="">
+            <div class="cat-box">
+              <img src="" alt="" />
+              <div class="tile-overlay">
+                <h4>AI-Generated</h4>
+                <p><span>00+ Assets</span></p>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="pack">
+      <div class="box">
+        <h2>Featured Packs</h2>
+        <h3><span> Pre-Built Packs Loved by Creators</span></h3>
+        <div class="cont">
+          <div class="small-box">
+            <div class="thumbnail-tiktok"></div>
+            <h3>The TikTok Trend Starter</h3>
+            <p>
+              High-energy sound bites, transitions and viral style overlays.
+            </p>
+            <a
+              class="button-secondary pack-link"
+              id="openPopup"
+              href="packs.html?pack=tiktok"
+            >
+              Preview Pack
+            </a>
+          </div>
+          <div class="small-box">
+            <div class="thumbnail-cinematic"></div>
+            <h3>Cinematic Short Film Pack</h3>
+            <p>
+              Soundscapes, cinematic LUTs and SFX for moody-heavy short films.
+            </p>
+            <a
+              class="button-secondary pack-link"
+              id="openPopup"
+              href="packs.html?pack=cinematic"
+            >
+              Preview Pack
+            </a>
+          </div>
+          <div class="small-box">
+            <div class="thumbnail-study"></div>
+            <h3>Lo-fi Study Kit</h3>
+            <p>
+              Chill loops, ambient sounds &amp; overlays for deep-focus vibes.
+            </p>
+            <a
+              class="button-secondary pack-link"
+              id="openPopup"
+              href="packs.html?pack=lofi"
+            >
+              Preview Pack
+            </a>
+          </div>
+          <div class="small-box">
+            <div class="thumbnail-gaming"></div>
+            <h3>Gaming Stream Essentials</h3>
+            <p>Twitch overlays, alert sounds &amp; loops built for streamers</p>
+            <a
+              class="button-secondary pack-link"
+              id="openPopup"
+              href="packs.html?pack=gaming"
+            >
+              Preview Pack
+            </a>
+          </div>
+          <div class="small-box">
+            <div class="thumbnail-podcast"></div>
+            <h3>Podcast Promo Kit</h3>
+            <p>
+              Wave forms, stings &amp; visuals to help your podcast shine
+              online.
+            </p>
+            <a
+              class="button-secondary pack-link"
+              id="openPopup"
+              href="packs.html?pack=podcast"
+            >
+              Preview Pack
+            </a>
+          </div>
+          <div class="small-box">
+            <div class="thumbnail-instagram"></div>
+            <h3>Instagram Aesthetic Pack</h3>
+            <p>
+              Trendy transitions, overlays &amp; filters - styled for social
+              growth.
+            </p>
+            <a
+              class="button-secondary pack-link"
+              id="openPopup"
+              href="packs.html?pack=instagram"
+            >
+              Preview Pack
+            </a>
+          </div>
+        </div>
+        <a class="button-primary" href="packs.html"> View All Packs </a>
+      </div>
+    </section>
+    <section class="buy">
+      <div class="box">
+        <h2>Why Choose Creator Vault?</h2>
+        <div class="card">
+          <img alt="" src="img/icon/rings-icon.png" />
+          <h3>All-in-One Convenience</h3>
+          <p>
+            Everything you need in one simple search. No more endless scrolling
+          </p>
+        </div>
+        <div class="card">
+          <img alt="" src="img/icon/star-icon.png" />
+          <h3>Built For Creators</h3>
+          <p>
+            Everything you need - Nothing you don't. Made to fit your workflow.
+          </p>
+        </div>
+        <div class="card">
+          <img alt="" src="img/icon/bolt-icon.png" />
+          <h3>Curated, Not Cluttered</h3>
+          <p>Style driven packs, Hand-picked for quality.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="join">
+          <h2>Join the vault</h2>
+          <p>Join Free - Or Go Pro</p>
+          <div class="cont">
+            <div class="card">
+              <h3>Free Access:</h3>
+              <ul>
+                <li>Search all stock sites with one search</li>
+                <li>Browse free starter packs</li>
+                <li>Limited monthly downloads</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>
+                Premium
+                <span>
+                  <i> (Coming Soon) </i>
+                </span>
+              </h3>
+              <ul>
+                <li>Unlimited pack access</li>
+                <li>Custom builder tools</li>
+                <li>Exclusive content vault</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a class="button-primary" href=""> Join Free Today </a>
+      </div>
+    </section>
+    <footer>
+      <a href=""> Terms </a>
+      <a href=""> Privacy </a>
+      © 2025 Creator Vault. All rights reserved.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
